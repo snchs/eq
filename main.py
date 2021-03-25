@@ -32,9 +32,15 @@ class MainWindow(QMainWindow):
         self.pushButton_21.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.home))
         self.pushButton_159.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page))
         self.pushButton_165.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page))
+        self.pushButton_231.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page))
+        self.pushButton_362.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page))
+        self.pushButton_449.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page))
 
         self.pushButton_9.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_5))
         self.pushButton_10.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_6))
+        self.pushButton_11.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_13))
+        self.pushButton_12.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_13.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
         # эмоции
         self.pushButton_160.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_7))
         self.pushButton_161.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_8))
@@ -50,6 +56,33 @@ class MainWindow(QMainWindow):
 
         self.pushButton_227.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_10))
         self.pushButton_229.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_11))
+        # Управляем эмоциями с помощью тела
+        self.pushButton_368.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_52))
+        self.pushButton_363.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_68))
+        self.pushButton_367.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_69))
+        self.pushButton_365.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_70))
+        self.pushButton_364.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_71))
+        self.pushButton_366.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_72))
+
+        self.pushButton_441.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_442.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_443.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_444.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_445.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        self.pushButton_446.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_14))
+        # Управляем эмоциями с помощью дыхания
+        self.pushButton_450.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_74))
+        self.pushButton_453.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_75))
+        self.pushButton_451.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_76))
+        self.pushButton_452.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_77))
+        self.pushButton_448.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_78))
+
+        self.pushButton_447.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
+        self.pushButton_454.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
+        self.pushButton_455.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
+        self.pushButton_457.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
+        self.pushButton_458.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.page_15))
+
 
 
         # действие кнопок - термины
